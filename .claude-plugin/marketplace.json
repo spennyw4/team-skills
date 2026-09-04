@@ -1,0 +1,30 @@
+{
+  "name": "team-skills",
+  "owner": {
+    "name": "spennyw4",
+    "url": "https://github.com/spennyw4"
+  },
+  "description": "Shared Claude Code skills and plugins for the team.",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "example-skill-pack",
+      "source": "./plugins/example-skill-pack",
+      "displayName": "Example Skill Pack",
+      "description": "Starter plugin showing the layout every plugin in this marketplace follows. Copy it to create a new one.",
+      "version": "0.1.0",
+      "author": {
+        "name": "spennyw4",
+        "url": "https://github.com/spennyw4"
+      },
+      "repository": "https://github.com/spennyw4/team-skills",
+      "license": "MIT",
+      "keywords": [
+        "template",
+        "starter",
+        "authoring"
+      ],
+      "category": "meta"
+    }
+  ]
+}

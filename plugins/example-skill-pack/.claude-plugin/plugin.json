@@ -1,0 +1,13 @@
+{
+  "name": "example-skill-pack",
+  "displayName": "Example Skill Pack",
+  "version": "0.1.0",
+  "description": "Starter plugin showing the layout every plugin in this marketplace follows. Copy it to create a new one.",
+  "author": {
+    "name": "spennyw4",
+    "url": "https://github.com/spennyw4"
+  },
+  "repository": "https://github.com/spennyw4/team-skills",
+  "license": "MIT",
+  "keywords": ["template", "starter", "authoring"]
+}
