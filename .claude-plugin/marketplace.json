@@ -25,6 +25,26 @@
         "authoring"
       ],
       "category": "meta"
+    },
+    {
+      "name": "skill-creator",
+      "source": "./plugins/skill-creator",
+      "displayName": "Skill Creator",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance with evals and benchmarks.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Anthropic",
+        "url": "https://github.com/anthropics"
+      },
+      "license": "Apache-2.0",
+      "keywords": [
+        "skills",
+        "authoring",
+        "evals",
+        "benchmarking",
+        "meta"
+      ],
+      "category": "meta"
     }
   ]
 }

@@ -1,0 +1,22 @@
+skill-creator
+=============
+
+This plugin vendors the `skill-creator` skill distributed by Anthropic as an
+example skill (manifest source: "anthropic-example").
+
+Copyright Anthropic, PBC.
+Licensed under the Apache License, Version 2.0. A full copy of the license is
+included at `LICENSE.txt` in this directory and at
+`skills/skill-creator/LICENSE.txt` as shipped upstream.
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Modifications
+-------------
+
+None. The contents of `skills/skill-creator/` are a byte-for-byte copy of the
+upstream skill as synced on 2026-09-04. A copy of LICENSE.txt has been added at
+this plugin's root for visibility; the upstream copy remains in place.
+
+If you update this vendored copy, re-verify it against upstream and record any
+divergence here, as required by section 4(b) of the license.

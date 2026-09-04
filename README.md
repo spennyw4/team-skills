@@ -9,7 +9,7 @@ Add the marketplace once, then install whatever you need:
 
 ```
 /plugin marketplace add spennyw4/team-skills
-/plugin install example-skill-pack@team-skills
+/plugin install skill-creator@team-skills
 ```
 
 Browse what's available with `/plugin` , and pull in later changes with
@@ -33,6 +33,10 @@ plugins/
     skills/
       skill-template/
         SKILL.md            # one directory per skill
+  skill-creator/            # vendored from Anthropic's examples (Apache-2.0)
+    LICENSE.txt
+    NOTICE
+    skills/skill-creator/
 scripts/
   validate_marketplace.py   # CI-able consistency check
 ```
@@ -84,3 +88,18 @@ every local `source` path exists, that plugin names agree across the marketplace
 entry, `plugin.json`, and the directory name, and that each skill has well-formed
 frontmatter whose `name` matches its directory. It exits non-zero on any error,
 so it can be wired straight into CI.
+
+## Vendored plugins
+
+Some plugins here are copies of third-party skills rather than team-authored
+work. Each keeps its upstream license and a `NOTICE` recording provenance and
+any modifications:
+
+| Plugin | Upstream | License |
+|---|---|---|
+| `skill-creator` | Anthropic example skills | Apache-2.0 |
+
+The repository's own MIT `LICENSE` covers team-authored content only; vendored
+directories are governed by the license shipped inside them. When refreshing a
+vendored copy, diff it against upstream and update its `NOTICE` if anything
+diverges.
