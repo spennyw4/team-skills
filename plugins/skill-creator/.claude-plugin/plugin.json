@@ -3,7 +3,9 @@
   "displayName": "Skill Creator",
   "version": "0.1.0",
   "description": "Create new skills, modify and improve existing skills, and measure skill performance with evals and benchmarks. Vendored from Anthropic's example skills (Apache-2.0).",
-  "skills": "./skills/",
+  "skills": [
+    "./skills/skill-creator"
+  ],
   "author": {
     "name": "Anthropic",
     "url": "https://github.com/anthropics"
