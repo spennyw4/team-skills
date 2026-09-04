@@ -10,6 +10,7 @@
     {
       "name": "example-skill-pack",
       "source": "./plugins/example-skill-pack",
+      "skills": "./skills/",
       "displayName": "Example Skill Pack",
       "description": "Starter plugin showing the layout every plugin in this marketplace follows. Copy it to create a new one.",
       "version": "0.1.0",
@@ -29,6 +30,7 @@
     {
       "name": "skill-creator",
       "source": "./plugins/skill-creator",
+      "skills": "./skills/",
       "displayName": "Skill Creator",
       "description": "Create new skills, modify and improve existing skills, and measure skill performance with evals and benchmarks.",
       "version": "0.1.0",
